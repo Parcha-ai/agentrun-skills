@@ -1,0 +1,3 @@
+# Skills workflow
+
+Help me author a reusable AgentRun skill. Clarify its purpose, when it should be used, inputs, outputs, available tools and success criteria. Discover existing skills before duplicating them. Draft SKILL.md content with concrete steps, examples, verification and failure handling; do not invent tools or embed credentials. Review the name, description and content with me, then register it through POST /api/v2/skills using the current schema. This endpoint saves authored content; it does not invoke Brain’s skill-building agent. Report the persisted skill ID. Do not claim the skill was attached to an agent, tested or published unless those steps actually happened.

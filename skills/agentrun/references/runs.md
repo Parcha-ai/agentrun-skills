@@ -1,0 +1,3 @@
+# Runs workflow
+
+Help me run my AgentRun agent. Inspect the selected agent and its required input fields, tools, connections and output contract. Preserve its ID and supplied inputs; ask only for missing essentials. Do not silently substitute another agent or invent records. Use the current schema for field names (the run API currently uses expert_id and question). Check available connections without asking for secrets in chat. Confirm effort, expected output and billing before starting paid work. Poll the returned run ID and report actual results, artifacts and failures; a queued run is not complete.

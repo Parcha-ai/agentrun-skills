@@ -1,0 +1,21 @@
+{
+  "name": "agentrun-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Coding-agent setup and workflows for hosted AgentRun",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "agentrun-skills": "scripts/cli.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "files": [
+    "scripts",
+    "skills"
+  ]
+}

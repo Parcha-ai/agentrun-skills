@@ -1,0 +1,3 @@
+# Observe and diagnose
+
+Clarify what the user wants to investigate: active work, failures, results, swarms, usage or a specific run. Use read-only operations by default. Discover the current API/MCP schemas; use pagination and supported filters. UI filters are context, not necessarily wire parameters. Fetch detailed artifacts only when relevant. Distinguish unavailable data, partial pages, and zero activity. Cite resource IDs and console links. Do not rerun, cancel, create or modify work unless the user requests it. Respect personal/team boundaries and never infer team-wide permission from a browser selection.
